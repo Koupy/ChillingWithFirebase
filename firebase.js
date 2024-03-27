@@ -1,11 +1,9 @@
-import { initializeApp } from 'firebase/app'
+import { initializeApp } from "firebase/app";
 
 const app = initializeApp({
-  apiKey: "", // TODO
-  authDomain: "", // TODO
-  databaseURL: "", // TODO
-  projectId: "", // TODO
-  storageBucket: "" // TODO
-})
+  apiKey: "AIzaSyDBIArfmz1ugqXvLIf-WzL_ppguKMge2k8",
+  authDomain: "babazulu-7a9b9.firebaseapp.com	", // TODO
+  projectId: "babazulu-7a9b9",
+});
 
-export default app
+export default app;
